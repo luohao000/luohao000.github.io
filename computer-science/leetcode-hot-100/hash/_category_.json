@@ -1,7 +1,7 @@
 {
-	"label": "LeetCode 热题 100",
+	"label": "哈希",
 	"position": 1,
-	"link": {
+    "link": {
         "type": "generated-index"
     }
 }
