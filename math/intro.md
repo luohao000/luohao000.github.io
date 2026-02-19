@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-title: 数学
 ---
 
 # 数学
