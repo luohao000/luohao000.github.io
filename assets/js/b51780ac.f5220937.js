@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkluohao000_github_io=globalThis.webpackChunkluohao000_github_io||[]).push([[332],{5537(o){o.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"physics"}')}}]);
