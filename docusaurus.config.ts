@@ -41,9 +41,7 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -62,9 +60,39 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "math",
+        path: "math",
+        routeBasePath: "math",
+        sidebarPath: "./sidebarsMath.ts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "physics",
+        path: "physics",
+        routeBasePath: "physics",
+        sidebarPath: "./sidebarsPhysics.ts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "computer-science",
+        path: "computer-science",
+        routeBasePath: "computer-science",
+        sidebarPath: "./sidebarsComputerScience.ts",
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/social-card.jpeg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -75,11 +103,12 @@ const config: Config = {
         src: "img/favicon.jpg",
       },
       items: [
+        { to: "/math/intro", label: "数学", position: "left" },
+        { to: "/physics/intro", label: "物理", position: "left" },
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          to: "/computer-science/intro",
+          label: "计算机",
           position: "left",
-          label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
