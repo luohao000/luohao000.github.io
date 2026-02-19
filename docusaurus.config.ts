@@ -111,7 +111,7 @@ const config: Config = {
         { to: "/math/intro", label: "数学", position: "left" },
         { to: "/physics/intro", label: "物理", position: "left" },
         {
-          to: "/computer-science/category/leetcode-热题-100",
+          to: "/computer-science/leetcode-hot-100/hash/two-sum",
           label: "计算机",
           position: "left",
         },
