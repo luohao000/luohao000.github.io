@@ -69,7 +69,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "My Site",
+      title: "Home",
       logo: {
         alt: "My Site Logo",
         src: "img/favicon.jpg",
