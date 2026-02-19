@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '数学',
+    Svg: require('@site/static/img/subject-math.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        数学，是研究数量、结构、变化、空间以及信息等概念的一门学科。数学是人类对事物的抽象结构与模式进行严格描述、推导的一种通用手段，可以应用于现实世界的任何问题，所有的数学对象本质上都是人为定义的。从这个意义上，数学属于形式科学，而不是自然科学。不同的数学家和哲学家对数学的确切范围和定义有一系列的看法。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '物理',
+    Svg: require('@site/static/img/subject-physics.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        物理学，是研究物质最一般的运动规律和物质基本结构的学科。作为自然科学的带头学科，物理学研究大至宇宙，小至基本粒子等一切物质最基本的运动形式和规律，因此成为其他各自然科学学科的研究基础。物理学起始于伽利略和牛顿的年代，它已经成为一门有众多分支的基础科学。物理学是一门实验科学，也是一门崇尚理性、重视逻辑推理的科学。物理学充分用数学作为自己的工作语言，它是当今最精密的一门自然科学学科。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '计算机',
+    Svg: require('@site/static/img/subject-cs.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        计算机科学，研究计算机及其周围各种现象和规律的科学，亦即研究计算机系统结构、程序系统（即软件）、人工智能以及计算本身的性质和问题的学科。计算机科学是一门包含各种各样与计算和信息处理相关主题的系统学科，从抽象的算法分析、形式化语法等等，到更具体的主题如编程语言、程序设计、软件和硬件等。
       </>
     ),
   },
