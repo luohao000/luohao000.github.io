@@ -70,6 +70,7 @@ const config: Config = {
         docsDir: ["math", "physics", "computer-science"],
         docsRouteBasePath: ["math", "physics", "computer-science"],
         docsPluginIdForPreferredVersion: "math",
+        searchBarShortcutHint: false,
         hashed: true,
         language: ["zh", "en"],
       },
