@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "galdashen",
   tagline: "本站主要用于存放我的学习笔记",
-  favicon: "img/favicon.jpg",
+  favicon: "https://github.com/galdashen.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -110,7 +110,7 @@ const config: Config = {
       title: "Home",
       logo: {
         alt: "My Site Logo",
-        src: "img/favicon.jpg",
+        src: "https://github.com/galdashen.png",
       },
       items: [
         { to: "/math/intro", label: "数学", position: "left" },
