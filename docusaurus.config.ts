@@ -62,6 +62,19 @@ const config: Config = {
 
   plugins: [
     [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsDir: ["math", "physics", "computer-science"],
+        docsRouteBasePath: ["math", "physics", "computer-science"],
+        docsPluginIdForPreferredVersion: "math",
+        hashed: true,
+        language: ["zh", "en"],
+      },
+    ],
+    [
       "@docusaurus/plugin-content-docs",
       {
         id: "math",
@@ -120,6 +133,10 @@ const config: Config = {
         {
           href: "https://github.com/galdashen",
           label: "GitHub",
+          position: "right",
+        },
+        {
+          type: "search",
           position: "right",
         },
       ],
