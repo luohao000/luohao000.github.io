@@ -42,17 +42,7 @@ const config: Config = {
       "classic",
       {
         docs: false,
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -65,7 +55,7 @@ const config: Config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         indexDocs: true,
-        indexBlog: true,
+        indexBlog: false,
         indexPages: true,
         docsDir: ["math", "physics", "computer-science"],
         docsRouteBasePath: ["math", "physics", "computer-science"],
@@ -130,7 +120,6 @@ const config: Config = {
           label: "计算机",
           position: "left",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/galdashen",
           label: "GitHub",
