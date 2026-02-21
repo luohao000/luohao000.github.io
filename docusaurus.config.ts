@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "luohao",
+  title: "galdashen",
   tagline: "本站主要用于存放我的学习笔记",
   favicon: "img/favicon.jpg",
 
@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://luohao000.github.io",
+  url: "https://galdashen.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -23,8 +23,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "luohao000", // Usually your GitHub org/user name.
-  projectName: "luohao000.github.io", // Usually your repo name.
+  organizationName: "galdashen", // Usually your GitHub org/user name.
+  projectName: "galdashen.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
@@ -118,7 +118,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/luohao000",
+          href: "https://github.com/galdashen",
           label: "GitHub",
           position: "right",
         },
@@ -127,7 +127,7 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Luo Hao. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} galdashen. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
