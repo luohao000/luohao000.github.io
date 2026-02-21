@@ -145,7 +145,7 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} galdashen. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} galdashen.`,
     },
     prism: {
       theme: prismThemes.github,
