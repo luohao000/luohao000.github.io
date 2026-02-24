@@ -57,30 +57,12 @@ const config: Config = {
         indexDocs: true,
         indexBlog: false,
         indexPages: true,
-        docsDir: ["math", "physics", "computer-science"],
-        docsRouteBasePath: ["math", "physics", "computer-science"],
-        docsPluginIdForPreferredVersion: "math",
+        docsDir: ["computer-science"],
+        docsRouteBasePath: ["computer-science"],
+        docsPluginIdForPreferredVersion: "computer-science",
         searchBarShortcutHint: false,
         hashed: true,
         language: ["zh", "en"],
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "math",
-        path: "math",
-        routeBasePath: "math",
-        sidebarPath: "./sidebarsMath.ts",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "physics",
-        path: "physics",
-        routeBasePath: "physics",
-        sidebarPath: "./sidebarsPhysics.ts",
       },
     ],
     [
@@ -113,8 +95,6 @@ const config: Config = {
         src: "https://github.com/galdashen.png",
       },
       items: [
-        { to: "/math/intro", label: "数学", position: "left" },
-        { to: "/physics/intro", label: "物理", position: "left" },
         {
           to: "/computer-science/intro",
           label: "计算机",
