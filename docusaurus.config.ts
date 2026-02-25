@@ -62,6 +62,7 @@ const config: Config = {
         searchBarShortcutHint: false,
         hashed: true,
         language: ["zh", "en"],
+        docsPluginIdForPreferredVersion: "computer-science",
       },
     ],
     [
