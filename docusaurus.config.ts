@@ -56,10 +56,9 @@ const config: Config = {
       {
         indexDocs: true,
         indexBlog: false,
-        indexPages: true,
+        indexPages: false,
         docsDir: ["computer-science"],
         docsRouteBasePath: ["computer-science"],
-        docsPluginIdForPreferredVersion: "computer-science",
         searchBarShortcutHint: false,
         hashed: true,
         language: ["zh", "en"],
